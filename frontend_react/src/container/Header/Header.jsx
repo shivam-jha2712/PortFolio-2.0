@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import { images } from '../../constants';
 import './Header.scss';
 
+
+
 const scaleVariants = {
     whileInView: {
         scale: [0, 1],
@@ -38,7 +40,7 @@ const Header = () => {
                     <div className="tag-cmp app__flex">
                         <p className="p-text">Web Developer</p>
                         <p className="p-text">Competitive Coder</p>
-                        <p className="p-text">Data Scientist</p>
+                        <p className="p-text">Frontend Developer</p>
                         <p className="p-text">Digital Marketer</p>
                     </div>
                 </div>
@@ -66,12 +68,13 @@ const Header = () => {
                 whileInView={scaleVariants.whileInView}
                 className="app__header-circles"
             >
-                {[images.cpp, images.javascript, images.react, images.python].map((circle, index) => (
+                {[images.cpp, images.vue, images.react, images.python, images.html, images.css, images.javascript].map((circle, index) => (
                     <div className="circle-cmp app__flex" key={`circle-${index}`}>
                         <img src={circle} alt="circle" />
                     </div>
                 ))}
             </motion.div>
+
         </div>
     )
 }
