@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion';
 
-import { images } from '../../constants';
+
+import { AppWrap } from '../../wrapper';
+
 import './About.scss';
 import { urlFor, client } from '../../client';
 
@@ -45,6 +47,7 @@ const About = () => {
                         <img src={urlFor(about.imgUrl)} alt={about.title} />
                         <h2 className="bold-text" style={{ marginTop: 20 }}>{about.title}</h2>
                         <p className="p-text" style={{ marginTop: 10 }}>{about.description}</p>
+                        {/* <a href="#" className="btn-text" style={{ marginTop: 20 }}>{about.Url}</a> */}
 
                     </motion.div>
                 ))}
@@ -53,4 +56,8 @@ const About = () => {
     )
 }
 
-export default About
+export default AppWrap(About, 'about');
+
+// Did this Appwrap wala bakchodi to render header into the App Wrap while using higher order components
+
+// AppWrap is too much important to understand the import HOC
