@@ -33,7 +33,7 @@ const Header = () => {
                 <div className="app__header-badge">
                     <div className="badge-cmp app__flex">
                         <span><img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"></img></span>
-                        <div style={{ marginLeft: 20 }}>
+                        <div style={{ marginLeft: 10 }}>
                             <p className="p-text">Hi there! I am</p>
                             <h1 className="head-text">Shivam</h1>
                         </div>
