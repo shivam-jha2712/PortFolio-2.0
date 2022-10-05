@@ -10,28 +10,28 @@ import './Education.scss';
 const Eduskills = () => {
 
     const [experiencesedu, setExperiencesedu] = useState([]);
-    const [eduskills, setEduskills] = useState([]);
+    const [education, setEducation] = useState([]);
 
     // UseEffect is responsible  for creating and fetching data from the sanity CMS
     useEffect(() => {
         const query = '*[_type == "experiencesedu"]';
-        const eduskillsQuery = '*[_type == "eduskills"]';
+        const educationQuery = '*[_type == "education"]';
 
         client.fetch(query).then((data) => {
             setExperiencesedu(data);
         });
 
-        client.fetch(eduskillsQuery).then((data) => {
-            setEduskills(data);
+        client.fetch(educationQuery).then((data) => {
+            setEducation(data);
         });
     }, []);
 
     return (
         <>
-            <h2 className="head-text">Educational Information</h2>
+            <h2 className="head-text">Educational <span>Institute</span> and <span>Information</span></h2>
             <div className="app__Eduskills-container">
                 <motion.div className="app__Eduskills-list">
-                    {eduskills?.map((eduskills) => (
+                    {education?.map((eduskills) => (
                         <motion.div
                             whileInView={{ opacity: [0, 1] }}
                             transition={{ duration: 0.5 }}
@@ -89,7 +89,7 @@ const Eduskills = () => {
     )
 }
 
-export default AppWrap(Eduskills, 'eduskills');
+export default AppWrap(Eduskills, 'education');
 // export default AppWrap(
 //     MotionWrap(Eduskills, 'app__eduskills'),
 //     'eduskills',

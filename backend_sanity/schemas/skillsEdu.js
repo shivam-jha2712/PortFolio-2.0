@@ -1,6 +1,6 @@
 export default {
-    name: 'eduskills',
-    title: 'Eduskills',
+    name: 'education',
+    title: 'Education',
     type: 'document',
     fields: [
         {

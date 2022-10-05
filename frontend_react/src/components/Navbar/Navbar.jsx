@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 import { images } from '../../constants'; // Follow this to find where images are linked and are being imported from. ie(check -- CONSTANTS )
 
-// Also this import is being done in order to put all the imports one by one to stop and importing all the iimage data all at once.
+// Also this import is being done in order to put all the imports one by one to stop and importing all the image data all at once.
 import './Navbar.scss'
 
 const Navbar = () => {
