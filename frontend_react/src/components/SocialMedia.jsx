@@ -16,7 +16,7 @@ const SocialMedia = () => {
                 </a>
             </div>
             <div>
-                <a href="https://linktr.ee/shivamjha2712---">
+                <a href="#">
                     <FaFile />
                 </a>
             </div>
@@ -26,7 +26,7 @@ const SocialMedia = () => {
                 </a>
             </div>
             <div>
-                <a href="https://twitter.com/Shivamj23174085">
+                <a href="https://linktr.ee/shivamjha2712">
                     <BsFileCode />
                 </a>
             </div>
