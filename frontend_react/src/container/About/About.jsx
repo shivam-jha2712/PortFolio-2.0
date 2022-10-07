@@ -60,6 +60,7 @@ export default AppWrap(
     MotionWrap(About, 'app__about'),
     'about',
     "app__whitebg"
+    // "app__primarybg"
 );
 
 // Did this Appwrap wala bakchodi to render header into the App Wrap while using higher order components
