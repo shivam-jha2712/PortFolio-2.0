@@ -136,7 +136,9 @@
     }
     div:nth-child(4)
     {
-        margin: 1rem;
+        margin-top: 1.3rem;
+        margin-left: 0.8rem;
+        margin-bottom: 3.7rem;
         width: 97px;
         height: 105px;
     }
@@ -204,6 +206,7 @@
         height: 185px;
     }
     }
+   
 
     @media screen and  (max-width: 1200){
         width: 100%;
