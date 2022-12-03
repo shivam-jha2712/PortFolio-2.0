@@ -30,6 +30,7 @@
     @media screen and (max-width: 1200px)
     {
         flex-direction:  column;  
+        padding-bottom:  4rem;
     }
 
     @media screen and (min-width: 2000px)
@@ -120,6 +121,7 @@
 
     div:nth-child(1)
     {
+        //  margin-top: -1.75rem;
         width: 95px;
         height: 95px;
     }
