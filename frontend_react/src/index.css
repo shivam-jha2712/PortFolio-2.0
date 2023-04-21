@@ -3,7 +3,7 @@
 :root {
   --font-base: "DM Sans", sans-serif;
 
-  --primary-color: #edf2f8;
+  --primary-color: #edf2f8; 
   --secondary-color: #313bac;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
@@ -11,6 +11,20 @@
   --brown-color: #46364a;
   --white-color: #ffffff;
 }
+
+  /* --primary-color: #1e293b;
+  --secondary-color: #c5cbe3; */
+/* :root {
+  --font-base: "DM Sans", sans-serif;
+
+--primary-color: #FFFFE0; 
+--secondary-color: #E73C7E;  
+--black-color: #0A0A0A; 
+--lightGray-color: #F2F2F2; 
+--gray-color: #4C4C4C; 
+--brown-color: #7A563B; 
+--white-color: #FFFFFF; 
+} */
 
 * {
   box-sizing: border-box;

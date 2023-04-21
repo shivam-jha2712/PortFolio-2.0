@@ -25,6 +25,8 @@ import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
 import about041 from '../assets/about041.png';
+// import moon from '../assets/moon.png';
+// import sun from '../assets/sun.png';
 
 import profile from '../assets/profile.webp';
 import circle from '../assets/circle.svg';
