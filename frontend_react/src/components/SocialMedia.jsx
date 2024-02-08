@@ -16,7 +16,7 @@ const SocialMedia = () => {
                 </a>
             </div>
             <div>
-                <a href="https://drive.google.com/file/d/1pEHDG0bqGTElSGwBwHXONGezHo5WjvYf/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1wT9ow-26SO676T1pMgvXQBh5LRas2EeM/view?usp=sharing">
                     <FaFile />
                 </a>
             </div>
