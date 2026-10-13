@@ -7,8 +7,11 @@ const NavigationDots = ({ active }) => (
                 href={`#${item}`}
                 key={item + index}
                 className="app__navigation-dot"
+                aria-label={`Go to ${item} section`}
                 style={active === item ? { backgroundColor: '#313BAC' } : {}}
-            />
+            >
+                <span className="app__navigation-label">{item}</span>
+            </a>
         ))}
     </div>
 );
